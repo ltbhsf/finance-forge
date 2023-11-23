@@ -1,0 +1,21 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+.won{
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+.last-box{
+    margin-bottom: 0;
+}

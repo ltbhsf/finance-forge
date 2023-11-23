@@ -1,0 +1,80 @@
+.norm-input{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.norm-input div{
+    /* border: solid black; */
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px; 
+    align-items: center;
+    
+}
+
+.norm-input input{
+    border: solid black 1px;
+    border-radius: 2px;
+    text-align: center;
+    padding: 3px 0;
+}
+
+
+.tax{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.tax input{
+    border: solid black 1px;
+    width: 55px;
+}
+
+.tax-choices{
+    display: flex;
+    float: row;
+    gap: 15px;
+    margin: 10px;
+}
+
+.tax-choices div{
+    border:  solid black 1px;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    padding: 3px;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+button {
+    border: solid black 1px;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 3px;
+}
+
+hr{
+    border: solid black 0.1px;
+    margin: 0 20px;
+}
+
+.clicked{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: black;
+    color: white;
+}

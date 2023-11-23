@@ -1,0 +1,24 @@
+.chart {
+    border: solid black 1px;
+    border-radius: 12px;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    align-items: center;
+    margin: 5% 0 2% 0;
+    
+}
+
+.bar-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.label{
+    text-align: center;
+}

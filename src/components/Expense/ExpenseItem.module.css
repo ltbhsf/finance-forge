@@ -1,0 +1,27 @@
+.item{
+    border: solid black 1px;
+    height: 60px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.date{
+    padding-right: 20px;
+}
+
+.box{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.money{
+
+}
